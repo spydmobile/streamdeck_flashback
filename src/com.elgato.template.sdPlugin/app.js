@@ -17,3 +17,15 @@ myAction.onKeyUp(({ action, context, device, event, payload }) => {
 myAction.onDialRotate(({ action, context, device, event, payload }) => {
 	console.log('Your dial code goes here!');
 });
+
+myAction.onKeyDown(event) {
+    if (this.lastProfile) {
+      this.switchToProfile(this.lastProfile);
+    }
+  }
+
+    // This function is called whenever a profile is switched
+	myAction.onProfileSwitched(profile) {
+		this.lastProfile = this.currentProfile;
+		this.currentProfile = profile;
+	  }
