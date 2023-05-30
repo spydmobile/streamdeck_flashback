@@ -1,9 +1,9 @@
 {
 	"SDKVersion": 2,
-	"Author": "Elgato Systems",
+	"Author": "spyd.com",
 	"CodePath": "app.html",
-	"Description": "Example description",
-	"Name": "Stream Deck Template",
+	"Description": "Flash Back to the last profile",
+	"Name": "Stream Deck FlashBack",
 	"Icon": "actions/template/assets/action",
 	"URL": "https://www.elgato.com/en/gaming/stream-deck",
 	"Version": "1.0.2",
@@ -20,7 +20,7 @@
 			"MinimumVersion": "10"
 		}
 	],
-	"Category": "Template Plugin",
+	"Category": "SpyD",
 	"CategoryIcon": "actions/template/assets/actionimage",
 	"Actions": [
 		{
